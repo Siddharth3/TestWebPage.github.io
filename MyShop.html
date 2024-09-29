@@ -1,0 +1,142 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Customer Data Table</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 20px;
+        }
+        table {
+            width: 100%;
+            border-collapse: collapse;
+            margin-bottom: 20px;
+        }
+        table, th, td {
+            border: 1px solid #ccc;
+        }
+        th, td {
+            padding: 8px;
+            text-align: left;
+        }
+        th {
+            background-color: #f2f2f2;
+        }
+        tr:nth-child(even) {
+            background-color: #f9f9f9;
+        }
+    </style>
+</head>
+<body>
+    <h1>Customer Information</h1>
+    <table>
+        <thead>
+            <tr>
+                <th>Customer ID</th>
+                <th>Gender</th>
+                <th>Age</th>
+                <th>Annual Income ($)</th>
+                <th>Spending Score</th>
+                <th>Profession</th>
+                <th>Work Experience (Years)</th>
+                <th>Family Size</th>
+            </tr>
+        </thead>
+        <tbody>
+            <!-- Demo Data for 100 Customers -->
+            <!-- You can copy and paste this structure for 100 rows -->
+            <!-- Data for customers 1 to 10 as an example -->
+            <tr><td>1</td><td>Male</td><td>25</td><td>45000</td><td>60</td><td>Engineer</td><td>3</td><td>4</td></tr>
+            <tr><td>2</td><td>Female</td><td>32</td><td>70000</td><td>80</td><td>Doctor</td><td>5</td><td>3</td></tr>
+            <tr><td>3</td><td>Male</td><td>40</td><td>120000</td><td>45</td><td>Lawyer</td><td>12</td><td>2</td></tr>
+            <tr><td>4</td><td>Female</td><td>29</td><td>65000</td><td>72</td><td>Teacher</td><td>4</td><td>5</td></tr>
+            <tr><td>5</td><td>Male</td><td>37</td><td>80000</td><td>55</td><td>Architect</td><td>10</td><td>3</td></tr>
+            <tr><td>6</td><td>Female</td><td>45</td><td>130000</td><td>68</td><td>Engineer</td><td>20</td><td>2</td></tr>
+            <tr><td>7</td><td>Male</td><td>22</td><td>39000</td><td>88</td><td>Student</td><td>1</td><td>6</td></tr>
+            <tr><td>8</td><td>Female</td><td>50</td><td>95000</td><td>62</td><td>Manager</td><td>22</td><td>4</td></tr>
+            <tr><td>9</td><td>Male</td><td>33</td><td>71000</td><td>75</td><td>Designer</td><td>8</td><td>3</td></tr>
+            <tr><td>10</td><td>Female</td><td>28</td><td>58000</td><td>53</td><td>Teacher</td><td>6</td><td>5</td></tr>
+            <!-- Example for customers 11 to 20 -->
+            <tr><td>11</td><td>Male</td><td>24</td><td>41000</td><td>61</td><td>Technician</td><td>2</td><td>2</td></tr>
+            <tr><td>12</td><td>Female</td><td>41</td><td>83000</td><td>78</td><td>Nurse</td><td>12</td><td>4</td></tr>
+            <tr><td>13</td><td>Male</td><td>38</td><td>98000</td><td>50</td><td>Banker</td><td>14</td><td>3</td></tr>
+            <tr><td>14</td><td>Female</td><td>35</td><td>55000</td><td>70</td><td>Artist</td><td>7</td><td>4</td></tr>
+            <tr><td>15</td><td>Male</td><td>30</td><td>47000</td><td>48</td><td>Consultant</td><td>5</td><td>2</td></tr>
+            <tr><td>16</td><td>Female</td><td>27</td><td>50000</td><td>85</td><td>Data Scientist</td><td>4</td><td>3</td></tr>
+            <tr><td>17</td><td>Male</td><td>42</td><td>115000</td><td>65</td><td>Project Manager</td><td>16</td><td>5</td></tr>
+            <tr><td>18</td><td>Female</td><td>34</td><td>62000</td><td>56</td><td>HR</td><td>9</td><td>3</td></tr>
+            <tr><td>19</td><td>Male</td><td>36</td><td>75000</td><td>71</td><td>Accountant</td><td>11</td><td>4</td></tr>
+            <tr><td>20</td><td>Female</td><td>31</td><td>68000</td><td>66</td><td>Scientist</td><td>7</td><td>2</td></tr>
+            
+			<!-- Additional data from customer 21 to 40 -->
+			<tr><td>21</td><td>Male</td><td>26</td><td>47000</td><td>64</td><td>Engineer</td><td>3</td><td>3</td></tr>
+			<tr><td>22</td><td>Female</td><td>39</td><td>78000</td><td>75</td><td>Architect</td><td>10</td><td>4</td></tr>
+			<tr><td>23</td><td>Male</td><td>47</td><td>95000</td><td>48</td><td>Doctor</td><td>20</td><td>5</td></tr>
+			<tr><td>24</td><td>Female</td><td>29</td><td>52000</td><td>81</td><td>Lawyer</td><td>6</td><td>2</td></tr>
+			<tr><td>25</td><td>Male</td><td>31</td><td>62000</td><td>58</td><td>Consultant</td><td>4</td><td>3</td></tr>
+			<tr><td>26</td><td>Female</td><td>35</td><td>81000</td><td>67</td><td>Manager</td><td>11</td><td>4</td></tr>
+			<tr><td>27</td><td>Male</td><td>22</td><td>45000</td><td>73</td><td>Data Scientist</td><td>2</td><td>1</td></tr>
+			<tr><td>28</td><td>Female</td><td>33</td><td>69000</td><td>69</td><td>HR</td><td>9</td><td>3</td></tr>
+			<tr><td>29</td><td>Male</td><td>41</td><td>102000</td><td>55</td><td>Engineer</td><td>18</td><td>4</td></tr>
+			<tr><td>30</td><td>Female</td><td>38</td><td>85000</td><td>77</td><td>Accountant</td><td>12</td><td>5</td></tr>
+			<tr><td>31</td><td>Male</td><td>28</td><td>49000</td><td>84</td><td>Technician</td><td>3</td><td>2</td></tr>
+			<tr><td>32</td><td>Female</td><td>46</td><td>96000</td><td>50</td><td>Manager</td><td>17</td><td>4</td></tr>
+			<tr><td>33</td><td>Male</td><td>34</td><td>71000</td><td>62</td><td>Scientist</td><td>8</td><td>3</td></tr>
+			<tr><td>34</td><td>Female</td><td>30</td><td>58000</td><td>79</td><td>Consultant</td><td>5</td><td>2</td></tr>
+			<tr><td>35</td><td>Male</td><td>37</td><td>93000</td><td>59</td><td>Architect</td><td>13</td><td>3</td></tr>
+			<tr><td>36</td><td>Female</td><td>27</td><td>53000</td><td>86</td><td>Teacher</td><td>4</td><td>4</td></tr>
+			<tr><td>37</td><td>Male</td><td>42</td><td>112000</td><td>52</td><td>Lawyer</td><td>19</td><td>5</td></tr>
+			<tr><td>38</td><td>Female</td><td>40</td><td>72000</td><td>68</td><td>Doctor</td><td>14</td><td>3</td></tr>
+			<tr><td>39</td><td>Male</td><td>36</td><td>84000</td><td>74</td><td>Data Scientist</td><td>9</td><td>2</td></tr>
+			<tr><td>40</td><td>Female</td><td>25</td><td>47000</td><td>83</td><td>Technician</td><td>2</td><td>4</td></tr>
+
+			<!-- Additional data from customer 41 to 60 -->
+			<tr><td>41</td><td>Male</td><td>29</td><td>54000</td><td>65</td><td>Consultant</td><td>4</td><td>3</td></tr>
+			<tr><td>42</td><td>Female</td><td>48</td><td>98000</td><td>49</td><td>Engineer</td><td>20</td><td>5</td></tr>
+			<tr><td>43</td><td>Male</td><td>35</td><td>83000</td><td>72</td><td>Accountant</td><td>11</td><td>4</td></tr>
+			<tr><td>44</td><td>Female</td><td>39</td><td>87000</td><td>61</td><td>Architect</td><td>15</td><td>3</td></tr>
+			<tr><td>45</td><td>Male</td><td>26</td><td>46000</td><td>78</td><td>Designer</td><td>2</td><td>2</td></tr>
+			<tr><td>46</td><td>Female</td><td>30</td><td>59000</td><td>67</td><td>HR</td><td>5</td><td>3</td></tr>
+			<tr><td>47</td><td>Male</td><td>43</td><td>106000</td><td>54</td><td>Manager</td><td>20</td><td>4</td></tr>
+			<tr><td>48</td><td>Female</td><td>27</td><td>52000</td><td>76</td><td>Technician</td><td>3</td><td>2</td></tr>
+			<tr><td>49</td><td>Male</td><td>31</td><td>64000</td><td>63</td><td>Scientist</td><td>6</td><td>3</td></tr>
+			<tr><td>50</td><td>Female</td><td>34</td><td>69000</td><td>82</td><td>Lawyer</td><td>8</td><td>2</td></tr>
+			<tr><td>51</td><td>Male</td><td>37</td><td>92000</td><td>57</td><td>Doctor</td><td>12</td><td>5</td></tr>
+			<tr><td>52</td><td>Female</td><td>45</td><td>99000</td><td>51</td><td>Manager</td><td>20</td><td>4</td></tr>
+			<tr><td>53</td><td>Male</td><td>23</td><td>43000</td><td>85</td><td>Data Scientist</td><td>2</td><td>3</td></tr>
+			<tr><td>54</td><td>Female</td><td>42</td><td>93000</td><td>59</td><td>Consultant</td><td>17</td><td>4</td></tr>
+			<tr><td>55</td><td>Male</td><td>33</td><td>77000</td><td>60</td><td>Engineer</td><td>8</td><td>3</td></tr>
+			<tr><td>56</td><td>Female</td><td>25</td><td>51000</td><td>87</td><td>Teacher</td><td>4</td><td>2</td></tr>
+			<tr><td>57</td><td>Male</td><td>29</td><td>57000</td><td>70</td><td>Architect</td><td>5</td><td>4</td></tr>
+			<tr><td>58</td><td>Female</td><td>44</td><td>102000</td><td>56</td><td>Lawyer</td><td>19</td><td>5</td></tr>
+			<tr><td>59</td><td>Male</td><td>28</td><td>48000</td><td>80</td><td>Technician</td><td>3</td><td>3</td></tr>
+			<tr><td>60</td><td>Female</td><td>36</td><td>76000</td><td>66</td><td>Scientist</td><td>11</td><td>4</td></tr>
+
+			<!-- Additional data from customer 61 to 80 -->
+			<tr><td>61</td><td>Male</td><td>40</td><td>89000</td><td>73</td><td>Accountant</td><td>16</td><td>5</td></tr>
+			<tr><td>62</td><td>Female</td><td>32</td><td>67000</td><td>71</td><td>Consultant</td><td>7</td><td>3</td></tr>
+			<tr><td>63</td><td>Male</td><td>38</td><td>86000</td><td>68</td><td>Manager</td><td>14</td><td>4</td></tr>
+			<tr><td>64</td><td>Female</td><td>27</td><td>54000</td><td>83</td><td>Technician</td><td>3</td><td>2</td></tr>
+			<tr><td>65</td><td>Male</td><td>35</td><td>75000</td><td>65</td><td>Lawyer</td><td>12</td><td>5</td></tr>
+			<tr><td>66</td><td>Female</td><td>39</td><td>93000</td><td>60</td><td>Architect</td><td>16</td><td>4</td></tr>
+			<tr><td>67</td><td>Male</td><td>29</td><td>58000</td><td>78</td><td>Data Scientist</td><td>5</td><td>3</td></tr>
+			<tr><td>68</td><td>Female</td><td>46</td><td>108000</td><td>55</td><td>Manager</td><td>20</td><td>4</td></tr>
+			<tr><td>69</td><td>Male</td><td>36</td><td>82000</td><td>70</td><td>Scientist</td><td>10</td><td>3</td></tr>
+			<tr><td>70</td><td>Female</td><td>30</td><td>61000</td><td>82</td><td>Consultant</td><td>6</td><td>2</td></tr>
+			<tr><td>71</td><td>Male</td><td>41</td><td>96000</td><td>58</td><td>Engineer</td><td>18</td><td>4</td></tr>
+			<tr><td>72</td><td>Female</td><td>38</td><td>84000</td><td>74</td><td>HR</td><td>12</td><td>4</td></tr>
+			<tr><td>73</td><td>Male</td><td>27</td><td>53000</td><td>81</td><td>Technician</td><td>4</td><td>3</td></tr>
+			<tr><td>74</td><td>Female</td><td>33</td><td>71000</td><td>69</td><td>Scientist</td><td>7</td><td>2</td></tr>
+			<tr><td>75</td><td>Male</td><td>43</td><td>110000</td><td>53</td><td>Manager</td><td>20</td><td>4</td></tr>
+			<tr><td>76</td><td>Female</td><td>24</td><td>47000</td><td>88</td><td>HR</td><td>3</td><td>1</td></tr>
+			<tr><td>77</td><td>Male</td><td>31</td><td>63000</td><td>75</td><td>Architect</td><td>6</td><td>3</td></tr>
+			<tr><td>78</td><td>Female</td><td>28</td><td>58000</td><td>85</td><td>Consultant</td><td>5</td><td>2</td></tr>
+			<tr><td>79</td><td>Male</td><td>37</td><td>94000</td><td>59</td><td>Scientist</td><td>13</td><td>4</td></tr>
+			<tr><td>80</td><td>Female</td><td>35</td><td>81000</td><td>77</td><td>Lawyer</td><td>10</td><td>3</td></tr>
+
+        </tbody>
+    </table>
+</body>
+</html>
